@@ -7,11 +7,12 @@ body{
 }
 
 h1{
+    background-color:#543c5c;
     font-family:Times;
     font-size:2.7rem;
     text-align:center;
    margin-top:0vh;
-   margin-right:10px;
+   margin-right:0px;
     text-decoration:none;   
     
 }
@@ -30,10 +31,10 @@ h1{
  input[type=text], input[type=submit] {
   width: 300px;
   padding: 11px;
-  margin: 9px 0px;
+  margin: 5px 0px;
   display: inline-block;
-  border: 1px solid black;
-  box-sizing: border-box;
+  border:1px solid black;
+  box-sizing:border-box;
 }
 .columns-news > img{
     width:200px;
@@ -55,10 +56,11 @@ h1{
 .columns-logo > img{
     width:200px;
     height:30px;
-    text-align:center;
-    margin-right:0px;
+    display: block;
     margin-left:70px;
-    padding-top:2.6vh;
+    background-position:center;
+    padding-top:2vh;
+  
 }
 
 .columns-sources > img{
@@ -78,16 +80,29 @@ h1{
     margin-left:1.3rem;
  
 }
-.caption{
+.para >.caption{
     font-family:Times;
-    font-size:.8rem;
+    font-size:.7rem;
     font-weight:500;
-    margin-top:0px;
+    display:block;
+    text-align:center;
+    padding-right:23px;
+    padding-left:4px;
     
 }
 
-.para > caption{
-    margin-top:90px;
+input[type=submit] {
+    font-family:Times;
+  background-color: #618264;
+  color: white;
+  text-transform:uppercase;
+  font-weight:550;
+  font-size:1rem;
+  border-radius:2px;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
 }
 
 
