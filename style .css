@@ -1,7 +1,4 @@
 
-
-
-
 body{
     
   width:100%;
@@ -107,6 +104,20 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.8;
 }
+.column > h1{
+    background-color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
