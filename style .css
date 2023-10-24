@@ -19,19 +19,18 @@ h1{
 .paragraph > p{
     font-family:Times;
     text-align:center;
-    align-item:center;
+    align-items:center;
     font-size:1rem;
     font-weight:500;
-    margin-right:20px;
-    
+    margin-right:20px;   
    
 }
     
  
  input[type=text], input[type=submit] {
   width: 300px;
-  padding: 12px;
-  margin: 8px 0;
+  padding: 11px;
+  margin: 9px 0px;
   display: inline-block;
   border: 1px solid black;
   box-sizing: border-box;
@@ -77,16 +76,39 @@ h1{
 .container > input{
     align-items:center;
     margin-left:1.3rem;
+ 
 }
-
 .caption{
     font-family:Times;
     font-size:.8rem;
     font-weight:500;
-    padding-top:1vh;
+    margin-top:0px;
+    
 }
 
- 
+.para > caption{
+    margin-top:90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
