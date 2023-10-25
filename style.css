@@ -6,13 +6,13 @@ body{
 
  h1{
       font-family:Times;
-      font-size:3.4rem;
+      font-size:2.9rem;
       text-align:center;
       text-decoration:none;
       margin-top:20px;   
-      
+
   }
-  
+
   .paragraph > p{
       font-family:Times;
       text-align:center;
@@ -20,10 +20,10 @@ body{
       font-size:1.2rem;
       font-weight:500;
       margin-right:20px;   
-     
+
   }
-      
-   
+
+
    input[type=text], input[type=submit] {
     width: 300px;
     padding:11px;
@@ -37,13 +37,13 @@ body{
       height:200px;
       margin-left:70px;
   }
-  
+
   .columns-events > img{
       width:200px;
       height:200px;
       margin-left:70px;
   }
-  
+
   .columns-data > img{
       width:200px;
       height:200px;
@@ -57,16 +57,16 @@ body{
       margin-right: auto;
       background-position:center;
       padding-top:3vh;
-    
+
   }
-  
+
   .columns-sources > img{
       width:300px;
       height:300px;
       margin-left:30px;
   }
-  
-  
+
+
   .columns-personalized > img{
       width:300px;
       height:300px;
@@ -75,7 +75,7 @@ body{
   .container > input{
       align-items:center;
       margin-left:1.3rem;
-   
+
   }
   .para >.caption{
       font-family:Times;
@@ -85,9 +85,9 @@ body{
       text-align:center;
       padding-right:23px;
       padding-left:4px;
-      
+
   }
-  
+
   input[type=submit] {
       font-family:'Times New Roman', Times, serif;
     background-color: #618264;
@@ -104,16 +104,17 @@ body{
     justify-content: space-between  ;
     border-radius:2px;
   }
-  
+
   input[type=submit]:hover {
     opacity: 0.8;
   }
-  .column > h1{
-      background-color:red;
+  .columns > h1{
+      font-family:Times;
+      font-size:2.4rem;
   }
 
   input[type=text]{
-   
+
   padding: 12px;
   margin: auto;
   text-align:center ;
@@ -121,41 +122,99 @@ body{
   display:block;
   box-sizing:border-box;
   }
+
+.columns-news >h3{
+    font-family:Times;
+    text-align:center;
+    font-size:1.5rem;
+  margin-top:-20px;
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+}
+
+.columns-news > p{
+    text-align:center;
+    text-align:left;
+}
+
+.columns-news > p{
+    text-align:center;
+    text-align:left;
+    display:block;
+    font-weight:400;
+    padding-left:26px;
+    padding-right:20px;
+    margin-top:-15px;
+    
+}
+
+.columns-events >h3{
+    font-family:Times;
+    text-align:center;
+    font-size:1.5rem;
+    margin-top:14px;
+}
+
+.columns-events >p{
+    text-align:center;
+    text-align:left;
+    font-weight:400;
+    padding-left:44px;
+    padding-right:10px;
+    margin-top:-15px;
+}
+
+.columns-data >h3{
+    font-family:Times;
+    text-align:center;
+    font-size:1.5rem;
+    margin-top:14px;
+}
+
+.columns-data >p{
+    text-align:center;
+    text-align:left;
+    font-weight:400;
+    padding-left:44px;
+    padding-right:10px;
+    margin-top:-15px;
+
+
+}
+
+
+
+
+.column >h1{
+    font-size:1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
