@@ -18,7 +18,7 @@ body{
       text-align:center;
       align-items:center;
       font-size:1.2rem;
-      font-weight:600;
+      font-weight:500;
       margin-right:20px;   
      
   }
@@ -79,7 +79,7 @@ body{
   }
   .para >.caption{
       font-family:Times;
-      font-size:.7rem;
+      font-size:1rem;
       font-weight:500;
       display:block;
       text-align:center;
@@ -89,7 +89,7 @@ body{
   }
   
   input[type=submit] {
-      font-family:Times;
+      font-family:'Times New Roman', Times, serif;
     background-color: #618264;
     color: white;
     text-transform:uppercase;
@@ -97,10 +97,10 @@ body{
     display:block;
     margin:auto;
     margin-top:1vh;
-    padding:12px 101px;
+    padding:12px 97px;
     text-align: center;
     text-align:left;
-    font-size:1rem;
+    font-size:1.2rem;
     justify-content: space-between  ;
     border-radius:2px;
   }
