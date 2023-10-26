@@ -1,4 +1,5 @@
 
+
 body{
     width:100%;
     height:100%;   
@@ -171,15 +172,14 @@ body{
 }
 
 .columns-data >p{
-    text-align:center;
+  text-align:center;
     text-align:left;
     font-weight:400;
     padding-left:44px;
     padding-right:10px;
     margin-top:-15px;
-
-
 }
+
 
 
 
@@ -188,6 +188,21 @@ body{
     font-size:1rem;
 }
 
+.column-text >h2{
+    font-family:Times;
+    font-size:2.1rem;
+ padding-left:10px;
+  padding-top:14vh;
+    
+}
+
+.column-text >p{
+    font-weight:400;
+    padding-left:12px;
+    margin-top:-20px;
+    
+    
+}
 
 
 
@@ -213,15 +228,3 @@ body{
 
 
 
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-   
-  
