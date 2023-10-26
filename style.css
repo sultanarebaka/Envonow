@@ -18,7 +18,7 @@ body{
       align-items:center;
       font-size:1.2rem;
       font-weight:500;
-      margin-right:20px;   
+     padding-right:24px;   
 
   }
 
@@ -78,7 +78,7 @@ body{
   }
   .para >.caption{
       font-family:Times;
-      font-size:1rem;
+      font-size:.9rem;
       font-weight:500;
       display:block;
       text-align:center;
@@ -199,7 +199,14 @@ body{
     
     
 }
+.columns-sources >img {
+    padding-top:40px;
+    
+    
+}
 
-
-
+.header >h1{
+    font-family:Times;
+        
+}
 
