@@ -129,7 +129,7 @@ body{
     font-size:1.7rem;
     margin-top:0px;
     margin-bottom:10px; 
-  
+
 }
 
 
@@ -139,7 +139,7 @@ body{
     font-weight:400;
     padding-left:40px;
     margin-top:10px;
-    
+
 }
 
 .columns-events >h3{
@@ -148,7 +148,7 @@ body{
     font-size:1.7rem;
     margin-top:0px;
     margin-bottom:10px;
-    
+
 }
 
 .columns-events >p{
@@ -165,7 +165,7 @@ body{
     font-size:1.7rem;
     margin-top:-12px;
     margin-bottom:10px;
-    
+
 }
 
 .columns-data >p{
@@ -196,17 +196,52 @@ body{
     font-weight:400;
     padding-left:12px;
     margin-top:10px;
-    
-    
+
+
 }
 .columns-sources >img {
     padding-top:40px;
-    
-    
 }
 
-.header >h1{
+.column-read >h2{
     font-family:Times;
-        
+    font-size:1.7rem;
+    padding-left:27px;
+
 }
 
+.column-read >p{
+    font-family:Times;
+    padding-left:16px;
+    padding-right:10px;
+    
+}
+
+.column-find >h2{
+    font-family:Times;
+    font-size:38px;
+    padding-top:14vh;
+    padding-left:15px;
+    margin-bottom:10px;
+}
+
+.column-find > p{
+    font-family:Times;
+      text-align:center;
+      align-items:center;
+      font-size:1.2rem;
+      font-weight:500;
+     padding-right:24px; 
+    margin-top:10px;
+}
+
+.column-FAQ >h2{
+    font-family:Times;
+    font-size:2.1rem;
+    padding-top:6vh;
+    
+}
+
+
+
+..
