@@ -247,27 +247,15 @@ body{
     padding-top:10px;
     float:left;
     margin-right:10px
-    font-size:1.7rem;}
-
-
-
-
-.contan{
-    display:flex;
- 
-    padding-right:10px;
-    
-}
+    font-size:1.7rem;
+    }
 
 
 .column-find >p{
     padding-top:10px;
     
 }
-.contan > .fa fa-plus{
-   margin-left:160px;
-   padding-top:30px;
-}
+
 
     
     
@@ -278,12 +266,25 @@ body{
 .footer ul li a {
   font-weight: bold;
   color: black;
+  background-position:center;
+  display:inline-block;
   text-decoration:underline;
   
 }
-.column-mailto > a{
-    display:flex;
+.column-Twitter > a{
+    display:inline-block;
+    background-position:center;
+   
+    
 }
+
+
+
+
+
+
+
+
 
 
 
