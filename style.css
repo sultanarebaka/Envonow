@@ -243,20 +243,44 @@ body{
     
 }
 
-summary >h3{
+.contan  >h3{
     padding-top:10px;
-    padding-left:20px;
-    font-size:1.7rem;
-    
-}
-.column-find >p{
-    padding-top:18px;
-    
+    padding-left:7px;
+    font-size:1.7rem;}
+
+
+
+
+.contan{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 }
 
-.fa-plus{
-    padding-left:80px;
+
+.column-find >p{
+    padding-top:10px;
+    
 }
+.contan > .fa fa-plus{
+   margin-right:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
