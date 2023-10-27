@@ -245,7 +245,8 @@ body{
 
 .contan  >h3{
     padding-top:10px;
-    padding-left:7px;
+    float:left;
+    margin-right:10px
     font-size:1.7rem;}
 
 
@@ -253,8 +254,9 @@ body{
 
 .contan{
     display:flex;
-    align-items:center;
-    justify-content:space-between;
+ 
+    padding-right:10px;
+    
 }
 
 
@@ -263,8 +265,35 @@ body{
     
 }
 .contan > .fa fa-plus{
-   margin-right:50px;
+   margin-left:160px;
+   padding-top:30px;
 }
+
+    
+    
+.footer ul li {
+  list-style: none;
+}  
+       
+.footer ul li a {
+  font-weight: bold;
+  color: black;
+  text-decoration:underline;
+  
+}
+.column-mailto > a{
+    display:flex;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
