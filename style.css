@@ -1,4 +1,3 @@
-
 body{
     background-color:#f6fffb;
     width:100%;
@@ -14,16 +13,19 @@ body{
       font-size:2.9rem;
       text-align:center;
       text-decoration:none;
-      margin-top:20px;   
+      margin-top:-20px;  
+      margin-left:-6px; 
 
   }
 
   .paragraph > p{
+      margin-top:6px;
       font-family:Times;
       text-align:center;
       align-items:center;
-      font-size:1.2rem;
+      font-size:1.1rem;
       font-weight:500;
+      padding-left:10px;
      padding-right:24px;   
 
   }
@@ -32,7 +34,7 @@ body{
    input[type=text], input[type=submit] {
     width: 300px;
     padding:11px;
-    margin:4px;
+  margin-left:4px;
     display: inline-block;
     border:1px solid black;
     box-sizing:border-box;
@@ -62,17 +64,23 @@ body{
       height:30px;
       background-color:#efd;
       display:block;
-      padding-left:70px;
+      padding-left:76px;
+      margin-left:-6px;
+      margin-top:-6px;
       background-position:center;
-      padding-top:3vh;
+      padding-top:4vh;
+      padding-bottom:30px;
 
   }
 
   .columns-sources > img{
       width:300px;
       height:300px;
+      
       padding-left:8px;
       padding-bottom:47px;
+      margin-top:-23px;
+  
   }
 
 
@@ -85,20 +93,13 @@ body{
       width:360px;
       height:350px;
       background-color:#FFF8D6;
-     padding-bottom:60px;
-     padding-top:0px;
+     padding-bottom:26px;
   
-      
-      }
- 
- 
- 
- 
-     
-  
-  
-  
-  
+ }
+
+
+
+
   .container > input{
       align-items:center;
       margin-left:1.3rem;
@@ -139,6 +140,7 @@ body{
   .column-All > h1{
       font-family:Times;
       font-size:2.4rem;
+      padding-left:26px;
   }
 
   input[type=text]{
@@ -215,15 +217,16 @@ body{
 .column-text >h2{
     font-family:Times;
         font-size:2.1rem;
- padding-left:10px;
-    padding-top:130px;
-    margin-bottom:10px;
+   padding-bottom:10px;
+  
+    padding-left:15px;
+ 
 }
 
 .column-text >p{
     font-weight:400;
     padding-left:12px;
-    margin-top:10px;
+    margin-top:-28px;
 
 
 }
@@ -236,29 +239,47 @@ body{
     font-family:Times;
     font-size:1.9rem;
     padding-left:20px;
-    padding-top:0px;
-    margin:0px;
+    
+    
 }
 .column-read{
     background-color:#FFF8D6;
     margin-left:-8px;
-}
-
-.column-read >p{
-    background-color:#FFF8D6;
-    font-family:Times;
-    padding-left:16px;
-    padding-right:10px;
-
+    margin-top:-30px;
+    padding-bottom:100px;
     
 }
 
+.column-read >p{
+    font-family:Times;
+    background-color:#FFF8D6;
+    font-family:Times;
+    margin-top:-16px;
+    padding-left:23px;
+    padding-right:12px;
+    text-align:center;
+    text-align:left;
+  
+    
+
+}
+.column-find{
+    background-color:black;
+    color:white;
+    margin-left:-8px;
+    margin-top:-32px;
+  
+}
+
+
+
+
 .column-find >h2{
     font-family:Times;
-    font-size:38px;
+    font-size:42px;
     padding-top:14vh;
-    padding-left:15px;
-    margin-bottom:10px;
+    padding-left:0px;
+    margin-bottom:0px;
 }
 
 .column-find > p{
@@ -268,6 +289,7 @@ body{
       font-size:1.2rem;
       font-weight:500;
      padding-right:24px; 
+     padding-left:0px;
     margin-top:10px;
 }
 
@@ -280,7 +302,7 @@ body{
 }
 
 .contan  >h3{
-   
+
     padding-left:20px;
     font-size:1.7rem;
     }
@@ -288,30 +310,30 @@ body{
 
 .column-find >p{
     padding-top:10px;
-    
+
 }
 
 
-    
-    
+
+
 .footer ul li {
   list-style: none;
 }  
-       
+
 .footer ul li a {
   font-weight: bold;
-  color: black;
+  color: white;
   background-position:center;
-  
+
   text-decoration:underline;
-  
+
 }
 .columns-con{
     display:flex;
     align-items:center;
     column-gap:40px; 
     padding-bottom:50px;
-    
+
 }
 
 
@@ -322,12 +344,7 @@ body{
    border-bottom:2px solid ;
    border-color:#C0C5CD;
    padding-bottom:20px;
-   
-}
-.contan >.fa fa-plus{
-    width:0px;
-    height:0px;
-    
+
 }
 
 .contai >h3{
@@ -338,7 +355,7 @@ body{
 }
 
 .contai {
-    
+
      display:flex;
     align-items:center;
    column-gap:0px;
@@ -360,13 +377,12 @@ body{
 }
 
 
-
-
-
-
-
-
-
+.column-mailto{
+    font-family:Times;
+    padding-left:100px;
+    
+    
+}
 
 
 
